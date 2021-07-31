@@ -3912,7 +3912,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7134,6 +7134,11 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.font-google {
+  /* font-family: 'Noto Serif JP', serif; */
+  font-family: 'Arimo', sans-serif;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -7334,7 +7339,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #5f617895 !important;
 }
 
 .bg-dark {

@@ -3912,7 +3912,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -10808,6 +10808,8 @@ section {
   flex-flow: column nowrap;
   justify-content: space-evenly;
   align-items: center;
+  margin: auto;
+  text-align: center;
   padding: 5vh 15vw 5vh 15vw;
 }
 
@@ -10818,8 +10820,8 @@ section {
 
 /* CONTENT */
 .section .background-section {
-  margin: auto;
-  text-align: center;
+  margin: inherit;
+  text-align: inherit;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
@@ -10845,11 +10847,15 @@ section {
 }
 
 .section .work-section {
-
+  margin: auto;
+  text-align: center;
+  padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
 .section .reach-out-section {
-
+  margin: auto;
+  text-align: center;
+  padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
 

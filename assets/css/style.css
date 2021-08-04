@@ -7034,6 +7034,11 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+.py-6 {
+  padding-top: 7rem !important;
+  padding-bottom: 7rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -10753,43 +10758,27 @@ textarea.form-control-lg {
 }
 
 /* PAGE LAYOUT & SCROLLSPY */
-.scrollspy {
-  position: relative;
-  overflow-y: scroll;
-  max-height: 100%;
+.entire-page {
+  height: 100vh;
 }
 
-.container {
+.flex-box {
+  height: 100%;
   position: relative;
-  width: 100vw;
-  height:100vh;  
   display: flex;
+  flex-flow: column nowrap;
 }
 
 .section {
-  flex: 1 0 auto;
-  flex-direction: column;
+  overflow-y: scroll;
   flex-wrap: nowrap;
-  
-  /* for Firefox */
-  min-height: 0;
 }
 
-.scrollable-content {
-  flex-grow: 1;
-  
-  overflow: auto;
-  
-  /* for Firefox */
-  min-height: 0;
-}
-
-.entire-page {
-  height: 100vh;
-  width: 100vw;
+.scrollspy {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  overflow-y: scroll;
+  flex: 1 0;
 }
+
 
 /*# sourceMappingURL=style.css.map */

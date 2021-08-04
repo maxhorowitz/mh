@@ -3912,7 +3912,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7161,7 +7161,7 @@ textarea.form-control-lg {
 
 .font-google .small {
   font-size: 1em;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 .font-google .smallest {
@@ -10782,6 +10782,14 @@ textarea.form-control-lg {
   }
 }
 
+/* SCROLLSPY */
+.scrollspy {
+  position: relative;
+  overflow-y: scroll;
+  flex: 1 0;
+}
+
+
 /* PAGE LAYOUT */
 .entire-page {
   height: 100vh;
@@ -10795,39 +10803,45 @@ textarea.form-control-lg {
   flex-flow: column nowrap;
 }
 
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5vh 15vw 5vh 15vw;
+}
+
 .section {
   overflow-y: scroll;
   flex-wrap: nowrap;
 }
 
-/* SCROLLSPY */
-.scrollspy {
-  position: relative;
-  overflow-y: scroll;
-  flex: 1 0;
-}
-
 /* CONTENT */
 .section .background-section {
-  /* display: grid;
-  grid-template:
-    [row1-start] "header header header" 25px [row1-end]
-    [row2-start] "footer footer footer" 25px [row2-end]
-    / auto 50px auto; */
-
+  margin: auto;
+  text-align: center;
+  padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
 .section .background-section img {
   display: block;
   border-radius: 50%;
-  width: 8em;
-  margin: auto;
-  text-align: center;
+  width: 15em;
+  padding: inherit;
+  margin: inherit;
+  text-align: inherit;
+}
+
+.section .background-section h1 {
+  margin: inherit;
+  text-align: inherit;
+  padding: inherit;
 }
 
 .section .background-section p {
-  margin: auto;
-  text-align: center;
+  margin: inherit;
+  text-align: inherit;
+  padding: inherit;
 }
 
 .section .work-section {
@@ -10838,14 +10852,6 @@ textarea.form-control-lg {
 
 }
 
-/* GRID ITEMS */
-section {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 5vh 0vw 5vh 0vw;
-  padding: 0vh 17.5vw 0vh 17.5vw;
-}
+
 
 /*# sourceMappingURL=style.css.map */

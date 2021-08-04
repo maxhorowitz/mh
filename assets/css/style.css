@@ -7144,6 +7144,31 @@ textarea.form-control-lg {
   font-family: 'Arimo', sans-serif;
 }
 
+.font-google .largest {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.font-google .large {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.font-google .medium {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.font-google .small {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.font-google .smallest {
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -10780,6 +10805,47 @@ textarea.form-control-lg {
   position: relative;
   overflow-y: scroll;
   flex: 1 0;
+}
+
+/* CONTENT */
+.section .background-section {
+  /* display: grid;
+  grid-template:
+    [row1-start] "header header header" 25px [row1-end]
+    [row2-start] "footer footer footer" 25px [row2-end]
+    / auto 50px auto; */
+
+}
+
+.section .background-section img {
+  display: block;
+  border-radius: 50%;
+  width: 5em;
+  margin: auto;
+  text-align: center;
+}
+
+.section .background-section p {
+  margin: auto;
+  text-align: center;
+}
+
+.section .work-section {
+
+}
+
+.section .reach-out-section {
+
+}
+
+/* GRID ITEMS */
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0vw 5vh 0vw;
+  padding: 0vh 17.5vw 0vh 17.5vw;
 }
 
 /*# sourceMappingURL=style.css.map */

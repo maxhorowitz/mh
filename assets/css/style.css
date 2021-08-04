@@ -10759,12 +10759,13 @@ textarea.form-control-lg {
 
 /* PAGE LAYOUT & SCROLLSPY */
 .entire-page {
+  position: relative;
   height: 100vh;
 }
 
 .flex-box {
-  height: 100%;
   position: relative;
+  height: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -10774,11 +10775,11 @@ textarea.form-control-lg {
   flex-wrap: nowrap;
 }
 
+/* SCROLLSPY (Navbar) */
 .scrollspy {
   position: relative;
   overflow-y: scroll;
   flex: 1 0;
 }
-
 
 /*# sourceMappingURL=style.css.map */

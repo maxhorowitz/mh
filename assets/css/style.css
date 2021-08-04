@@ -10767,9 +10767,7 @@ textarea.form-control-lg {
 }
 
 .section {
-  background: #2196F3;
-  flex-grow: 1;
-  display: flex;
+  flex: 1 0 auto;
   flex-direction: column;
   flex-wrap: nowrap;
   
@@ -10784,6 +10782,14 @@ textarea.form-control-lg {
   
   /* for Firefox */
   min-height: 0;
+}
+
+.entire-page {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

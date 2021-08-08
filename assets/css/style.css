@@ -10803,7 +10803,14 @@ textarea.form-control-lg {
   flex-flow: column nowrap;
 }
 
-section {
+.content {
+  overflow-y: scroll;
+  flex-wrap: nowrap;
+  margin: inherit;
+  text-align: inherit;
+}
+
+.content-container {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
@@ -10813,19 +10820,14 @@ section {
   padding: 5vh 15vw 5vh 15vw;
 }
 
-.section {
-  overflow-y: scroll;
-  flex-wrap: nowrap;
-}
-
 /* CONTENT */
-.section .background-section {
+.content .background-section {
   margin: inherit;
   text-align: inherit;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
-.section .background-section img {
+.content .background-section img {
   display: block;
   border-radius: 50%;
   width: 15rem;
@@ -10834,25 +10836,25 @@ section {
   text-align: inherit;
 }
 
-.section .background-section h1 {
+.content .background-section h1 {
   margin: inherit;
   text-align: inherit;
   padding: inherit;
 }
 
-.section .background-section p {
+.content .background-section p {
   margin: inherit;
   text-align: inherit;
   padding: inherit;
 }
 
-.section .work-section {
+.content .work-section {
   margin: auto;
   text-align: center;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
-.section .reach-out-section {
+.content .reach-out-section {
   margin: auto;
   text-align: center;
   padding: 2.5vh 0vw 2.5vh 0vw;

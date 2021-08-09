@@ -7160,6 +7160,11 @@ textarea.form-control-lg {
 }
 
 .font-google .small {
+  font-size: 1.25em;
+  font-weight: lighter;
+}
+
+.font-google .smaller {
   font-size: 1em;
   font-weight: lighter;
 }
@@ -10803,6 +10808,7 @@ textarea.form-control-lg {
   flex-flow: column nowrap;
 }
 
+/* CONTENT & FLEXBOX SETUP */
 .content {
   overflow-y: scroll;
   flex-wrap: nowrap;
@@ -10820,7 +10826,7 @@ textarea.form-control-lg {
   padding: 5vh 15vw 5vh 15vw;
 }
 
-/* CONTENT */
+/* BACKGROUND SECTION */
 .content .background-section {
   margin: inherit;
   text-align: inherit;
@@ -10859,7 +10865,6 @@ textarea.form-control-lg {
   text-align: center;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
-
 
 
 /*# sourceMappingURL=style.css.map */

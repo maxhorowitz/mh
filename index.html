@@ -38,9 +38,8 @@
                     <a class="navbar-brand" href="#">Max Horowitz</a>
                     <div class="navbar-nav mr-auto" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="#scrollspyheading1">Background</a>
-                            <a class="nav-link" href="#scrollspyheading2">My Work</a>
-                            <a class="nav-link" href="#scrollspyheading3">Reach Out</a>
+                            <a class="nav-link" href="#background">Background</a>
+                            <a class="nav-link" href="#reach-out">Reach Out</a>
                         </div>
                     </div>
                 </div>
@@ -50,52 +49,40 @@
             <div class="content scrollspy" data-bs-spy="scroll" data-bs-target="#navbar-with-scrollspy" data-bs-offset="0" tabindex="0">
 
                 <!-- BACKGROUND -->
-                <div class="content-container">
-                    <div class="background-section font-google" id="scrollspyheading1">
+                <div class="content-container" id="background">
+                    <div class="background-section font-google">
                         <img src="images/tux.jpg">
                         <h1 class="font-google largest">Welcome!</h1>
                         <p class="font-google small">I am an undergrad student pursuing my B.S. Eng in Computer Science at Cornell University. As of summer 2021, I am a robotics engineering intern at Viam Robotics. In this role, I have gained unique insight into machine learning for computer vision, depth image processing for object pose estimation, and other cutting-edge solutions to modern day issues in robotics.</p>
                     </div>
                 </div>
 
-                <!-- BACKGROUND -->
-                <div class="content-container">
-                    <div class="py-6">Background (coming soon...</div>
-                </div>
-
-                <!-- BACKGROUND -->
-                <div class="content-container">
-                    <div class="py-6">Background (coming soon...</div>
-                </div>
-
-                <!-- MY WORK -->
-                <div class="content-container">
-                    <div class="py-6" id="scrollspyheading2">My Work (coming soon...)</div>
-                </div>
-
-                <!-- MY WORK -->
-                <div class="content-container">
-                    <div class="py-6">My Work (coming soon...)</div>
-                </div>
-
-                <!-- MY WORK -->
-                <div class="content-container">
-                    <div class="py-6">My Work (coming soon...)</div>
-                </div>
+                <!-- THEMATIC BREAK -->
+                <hr>
 
                 <!-- REACH OUT -->
-                <div class="content-container">
-                    <div class="py-6" id="scrollspyheading3">Reach Out (coming soon...)</div>
-                </div>
+                <div class="content-container" id="reach-out">
+                    <div class="reach-out-section font-google">
+                        <h1 class="font-google largest">Reach Out!</h1>
+                        <p class="font-google small">Thanks for visiting my page. I am always interested in new opportunities and would love to chat if you have anything in mind.</p>
+                        <form>
+                            <div class="font-google smaller mb-3">
+                                <!-- name -->
+                                <label for="name-prompt" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="name-prompt" placeholder=" John Doe" aria-describedby="name-help">
+                                <!-- email -->
+                                <label for="email-prompt" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email-prompt" placeholder=" john@doe.com" aria-describedby="email-help">
+                                <div id="email-help" class="form-text">I'll never share your email with anyone else.</div>
+                                <!-- message -->
+                                <label for="message-prompt" class="form-label">Message</label>
+                                <textarea type="message" class="form-control" id="message-prompt" rows="4" style="resize: vertical;" placeholder="My name is John Doe." aria-describedby="message-help"></textarea>
+                                <!-- submit -->
+                                <button type="submit" class="btn btn-primary mb-3">Send</button>
+                            </div>
+                        </form>
 
-                <!-- REACH OUT -->
-                <div class="content-container">
-                    <div class="py-6">Reach Out (coming soon...)</div>
-                </div>
-
-                <!-- REACH OUT -->
-                <div class="content-container">
-                    <div class="py-6">Reach Out (coming soon...)</div>
+                    </div>
                 </div>
 
             </div>

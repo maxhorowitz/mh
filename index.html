@@ -10,6 +10,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Form Validation -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -65,27 +68,27 @@
                     <div class="reach-out-section font-google">
                         <h1 class="font-google largest">Reach Out!</h1>
                         <p class="font-google small">Thanks for visiting my page. I am always interested in new opportunities and would love to chat if you have anything in mind.</p>
-                        <form>
+                        <form id="reach-out-form">
                             <div class="font-google smaller mb-3">
                                 <!-- name -->
                                 <div class="entry">
                                     <label for="name-prompt" class="form-label">Name</label>
-                                    <input type="name" class="form-control" id="name-prompt" placeholder="John Doe" aria-describedby="name-help">
+                                    <input type="text" class="form-control" id="name-prompt" name="name" placeholder="John Doe" aria-describedby="name-help">
                                 </div>
                                 <!-- email -->
                                 <div class="entry">
                                     <label for="email-prompt" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email-prompt" placeholder="john@doe.com" aria-describedby="email-help">
+                                    <input type="text" class="form-control" id="email-prompt" name="email" placeholder="john@doe.com" aria-describedby="email-help">
                                     <div id="email-help" class="form-text">I'll never share your email with anyone else.</div>
                                 </div>
                                 <!-- message -->
                                 <div class="entry">
                                     <label for="message-prompt" class="form-label">Message</label>
-                                    <textarea type="message" class="form-control" id="message-prompt" rows="4" style="resize: vertical;" placeholder="My name is John Doe." aria-describedby="message-help"></textarea>
+                                    <textarea type="text" class="form-control" id="message-prompt" name="message" rows="4" style="resize: vertical;" placeholder="My name is John Doe." aria-describedby="message-help"></textarea>
                                 </div>
                                 <!-- submit -->
                                 <div class="entry">
-                                    <button type="submit" class="btn btn-dark mb-3">Send</button>
+                                    <button type="text" class="btn btn-dark mb-3">Send</button>
                                 </div>
                             </div>
                         </form>

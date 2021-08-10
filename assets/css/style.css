@@ -10855,12 +10855,6 @@ textarea.form-control-lg {
 }
 
 /* REACH-OUT SECTION */
-.content-container .reach-out-section form {
-  margin: auto;
-  text-align: left;
-  padding: inherit;
-}
-
 .content-container .reach-out-section {
   margin: auto;
   text-align: center;
@@ -10879,22 +10873,33 @@ textarea.form-control-lg {
   padding: inherit;
 }
 
+.content-container .reach-out-section form {
+  margin: auto;
+  text-align: left;
+  padding: inherit;
+}
+
+.content-container .reach-out-section .entry {
+  margin: inherit;
+  text-align: inherit;
+  padding: 1.25vh 0vw 1.25vh 0vw;
+}
+
 .content-container .reach-out-section label{
-  margin: auto;
+  margin: inherit;
   text-align: left;
-  padding: inherit;
+  padding-bottom: 0.5vh;
 }
 
 .content-container .reach-out-section input{
-  margin: auto;
+  margin: inherit;
   text-align: left;
-  padding: inherit;
+  padding-bottom: 0.5vh;
 }
 
-.content-container .reach-out-section input{
-  margin: auto;
+.content-container .reach-out-section textarea{
+  margin: inherit;
   text-align: left;
-  padding: inherit;
 }
 
 

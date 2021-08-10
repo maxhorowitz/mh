@@ -68,17 +68,25 @@
                         <form>
                             <div class="font-google smaller mb-3">
                                 <!-- name -->
-                                <label for="name-prompt" class="form-label">Name</label>
-                                <input type="name" class="form-control" id="name-prompt" placeholder=" John Doe" aria-describedby="name-help">
+                                <div class="entry">
+                                    <label for="name-prompt" class="form-label">Name</label>
+                                    <input type="name" class="form-control" id="name-prompt" placeholder="John Doe" aria-describedby="name-help">
+                                </div>
                                 <!-- email -->
-                                <label for="email-prompt" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email-prompt" placeholder=" john@doe.com" aria-describedby="email-help">
-                                <div id="email-help" class="form-text">I'll never share your email with anyone else.</div>
+                                <div class="entry">
+                                    <label for="email-prompt" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email-prompt" placeholder="john@doe.com" aria-describedby="email-help">
+                                    <div id="email-help" class="form-text">I'll never share your email with anyone else.</div>
+                                </div>
                                 <!-- message -->
-                                <label for="message-prompt" class="form-label">Message</label>
-                                <textarea type="message" class="form-control" id="message-prompt" rows="4" style="resize: vertical;" placeholder="My name is John Doe." aria-describedby="message-help"></textarea>
+                                <div class="entry">
+                                    <label for="message-prompt" class="form-label">Message</label>
+                                    <textarea type="message" class="form-control" id="message-prompt" rows="4" style="resize: vertical;" placeholder="My name is John Doe." aria-describedby="message-help"></textarea>
+                                </div>
                                 <!-- submit -->
-                                <button type="submit" class="btn btn-primary mb-3">Send</button>
+                                <div class="entry">
+                                    <button type="submit" class="btn btn-dark mb-3">Send</button>
+                                </div>
                             </div>
                         </form>
 

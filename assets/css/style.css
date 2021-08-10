@@ -10827,13 +10827,13 @@ textarea.form-control-lg {
 }
 
 /* BACKGROUND SECTION */
-.content .background-section {
+.content-container .background-section {
   margin: inherit;
   text-align: inherit;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
-.content .background-section img {
+.content-container .background-section img {
   display: block;
   border-radius: 50%;
   width: 15rem;
@@ -10842,28 +10842,59 @@ textarea.form-control-lg {
   text-align: inherit;
 }
 
-.content .background-section h1 {
+.content-container .background-section h1 {
   margin: inherit;
   text-align: inherit;
   padding: inherit;
 }
 
-.content .background-section p {
+.content-container .background-section p {
   margin: inherit;
   text-align: inherit;
   padding: inherit;
 }
 
-.content .work-section {
+/* REACH-OUT SECTION */
+.content-container .reach-out-section form {
+  margin: auto;
+  text-align: left;
+  padding: inherit;
+}
+
+.content-container .reach-out-section {
   margin: auto;
   text-align: center;
   padding: 2.5vh 0vw 2.5vh 0vw;
 }
 
-.content .reach-out-section {
+.content-container .reach-out-section h1{
   margin: auto;
-  text-align: center;
-  padding: 2.5vh 0vw 2.5vh 0vw;
+  text-align: inherit;
+  padding: inherit;
+}
+
+.content-container .reach-out-section p{
+  margin: auto;
+  text-align: inherit;
+  padding: inherit;
+}
+
+.content-container .reach-out-section label{
+  margin: auto;
+  text-align: left;
+  padding: inherit;
+}
+
+.content-container .reach-out-section input{
+  margin: auto;
+  text-align: left;
+  padding: inherit;
+}
+
+.content-container .reach-out-section input{
+  margin: auto;
+  text-align: left;
+  padding: inherit;
 }
 
 

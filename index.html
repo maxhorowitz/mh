@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,16 +13,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Bootstrap Form Validation -->
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
-    
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
-    
+
     <!-- CUSTOM (mh) -->
     <title>Max Horowitz</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -56,7 +57,9 @@
                     <div class="background-section font-google">
                         <img src="images/tux.jpg">
                         <h1 class="font-google largest">Welcome!</h1>
-                        <p class="font-google small">I am an undergrad student pursuing my B.S. in Computer Science at Cornell University's College of Engineering. During summer 2021, I worked as a robotics engineering intern at Viam Robotics. In this role, I gained unique insight into machine learning for computer vision, depth image processing for object pose estimation, and other cutting-edge solutions to modern day issues in robotics. I am returning to work as an intern at Viam Robotics during summer 2022. </p>
+                        <p class="font-google small">I am an undergrad student pursuing my B.S. in Computer Science at Cornell University's College of Engineering. During summer 2021, I worked as a robotics engineering intern at Viam Robotics. In this role, I gained unique insight
+                            into machine learning for computer vision, depth image processing for object pose estimation, and other cutting-edge solutions to modern day issues in robotics. I am returning to work as an intern at Viam Robotics during summer
+                            2022. </p>
                     </div>
                 </div>
 
@@ -68,7 +71,7 @@
                     <div class="reach-out-section font-google">
                         <h1 class="font-google largest">Reach Out!</h1>
                         <p class="font-google small">Thanks for visiting my page. I am always interested in new opportunities and would love to chat if you have anything in mind.</p>
-                        <form id="reach-out-form">
+                        <form id="reach-out-form" action="https://formspree.io/f/mrgjneon" method="POST">
                             <div class="font-google smaller mb-3">
                                 <!-- name -->
                                 <div class="entry">
@@ -78,7 +81,7 @@
                                 <!-- email -->
                                 <div class="entry">
                                     <label for="email-prompt" class="form-label">Email</label>
-                                    <input type="text" class="form-control" id="email-prompt" name="email" placeholder="john@doe.com" aria-describedby="email-help">
+                                    <input type="email" class="form-control" id="email-prompt" name="email" placeholder="john@doe.com" aria-describedby="email-help">
                                     <div id="email-help" class="form-text">I'll never share your email with anyone else.</div>
                                 </div>
                                 <!-- message -->
@@ -88,9 +91,11 @@
                                 </div>
                                 <!-- submit -->
                                 <div class="entry">
-                                    <button type="text" class="btn btn-dark mb-3">Send</button>
+                                    <button type="submit" class="btn btn-dark mb-3">Send</button>
                                 </div>
+
                             </div>
+
                         </form>
 
                     </div>
@@ -98,10 +103,6 @@
 
             </div>
 
-            <!-- FOOTER -->
-            <!-- <div class="section grow-size">
-                <p> fixed height </p>
-            </div> -->
         </div>
     </div>
 
@@ -120,4 +121,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 </body>
+
 </html>
